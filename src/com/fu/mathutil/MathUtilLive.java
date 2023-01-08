@@ -18,6 +18,9 @@ public class MathUtilLive {
         long result = MathUtil.getFactorial(5);
         System.out.println("expected: 5! = 120; actual: " + result);
         //MathUtil.getFactorial(-5);
+        
+        //them code len server 2:44 PM 8/1/2023
+        System.out.println("expected: 5! = 120; actual: " + MathUtil.getFactorial(6));
     }
     
 }
